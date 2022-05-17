@@ -1,0 +1,1 @@
+{"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_"},{"v":{"$numberInt":"2"},"key":{"location":"2dsphere"},"name":"location_2dsphere","background":true,"2dsphereIndexVersion":{"$numberInt":"3"}}],"uuid":"7da929f69b984828bb98e0af0ccbd4de","collectionName":"brands","type":"collection"}

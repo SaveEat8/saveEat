@@ -1,0 +1,36 @@
+{
+    "development": {
+        "config_id": "development",
+        "app_name": "petParenting",
+        "app_desc": " petParenting desc",
+        "node_port": 3000,
+        "json_indentation": 3,
+        "database": "petParenting-dev",
+        "nodemailer": {
+            "user": "testmobulous123@gmail.com",
+            "pass": "testmobulous123"
+        },
+        "appLink": "http://localhost:3000/api/v1/user",
+        "jwtSecretKey": "sUpER@SecReT",
+        "url": "localhost:3000"
+    },
+    "staging": {
+        "config_id": "staging",
+        "node_port": 8002,
+        "database": "petParenting-stag",
+        "appLink": "http://localhost:3000/api/v1/user",
+        "jwtSecretKey": "sUpER@SecReT",
+        "url": "localhost:3000",
+        "nodemailer": {
+            "user": "testmobulous123@gmail.com",
+            "pass": "testmobulous123"
+        }
+    },
+    "production": {
+        "config_id": "production",
+        "node_port": 8000,
+        "database": "petParenting-prod",
+        "appLink": "",
+        "jwtSecretKey": "sUpER@SecReT"
+    }
+}
